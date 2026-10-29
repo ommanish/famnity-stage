@@ -1,12 +1,35 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
-<title>Famnity — Staging demo</title>
-<style>body{font:18px/1.6 system-ui,sans-serif;background:#fffdf8;color:#142b5f;max-width:650px;margin:12vh auto;padding:24px}small{color:#665}h1{font-size:48px}</style>
-</head><body><small>Staging demo</small><h1>Famnity</h1>
-<p>Your family. Your day. Together.</p>
-<p>The application is being prepared. This page confirms that the deployment is working.</p>
-<p>Demonstration only. No accounts, personal information, location data or documents are collected.</p>
-</body></html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Famnity · Staging demo</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <meta name="robots" content="noindex,nofollow"><meta name="description" content="A calmer family day. Explore the Famnity sample-data demo."></head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/famnity-stage/_expo/static/js/web/index-10ea8a65fa8a6075115d384af3e353ba.js" defer></script>
+</body>
+</html>
